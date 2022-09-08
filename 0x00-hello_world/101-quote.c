@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-	char text;
+	char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	text = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	fprintf(stderr, "%c\n", text);
+	fprintf(stderr, text);
 	return (1);
 }
