@@ -9,8 +9,9 @@ int main(void)
 {
 	int a, b;
 
-	do {
-		for (a = 48 && b = 48; a < 58 && b < 58 && a < b; a++)
+	for (a = 48; a < 58; a++)
+	{
+		for ( b = a + 1; b < 58; b++)
 		{
 			putchar(a);
 			putchar(b);
@@ -19,7 +20,7 @@ int main(void)
 			putchar(44);
 			putchar(32);
 		}
-	} while (!(a == b));
+	}
 	putchar(10);
 	return (0);
 }
