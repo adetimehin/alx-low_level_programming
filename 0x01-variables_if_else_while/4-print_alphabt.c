@@ -11,9 +11,9 @@ int main(void)
 
 	for (a = 97; a < 123; a++)
 	{
-		putchar(a);
 		if (a == 101 || a == 113)
 			continue;
+		putchar(a);
 	}
 	putchar(10);
 	return (0);
