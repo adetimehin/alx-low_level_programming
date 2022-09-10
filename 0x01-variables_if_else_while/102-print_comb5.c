@@ -9,13 +9,13 @@ int main(void)
 {
 	int a, b, c, d;
 
-	for (a = 48; a < 58; a++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for (b = 48; b < 58; b++)
+		for (b = '0'; b <= '9'; b++)
 		{
-			for (c = a; c < 58; c++)
+			for (c = a; c <= '9'; c++)
 			{
-				for (d = b + 1; d < 58; d++)
+				for (d = b + 1; d <= '9'; d++)
 				{
 					putchar(a);
 					putchar(b);
