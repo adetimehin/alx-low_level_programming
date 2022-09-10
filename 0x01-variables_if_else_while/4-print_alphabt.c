@@ -9,10 +9,11 @@ int main(void)
 {
 	int a;
 
-	while (!(a == 101 && a == 103))
+	for (a = 97; a < 123; a++)
 	{
-		for (a = 97; a < 123; a++)
-			putchar(a);
+		putchar(a);
+		if (a == 101 || a == 113)
+			continue;
 	}
 	putchar(10);
 	return (0);
